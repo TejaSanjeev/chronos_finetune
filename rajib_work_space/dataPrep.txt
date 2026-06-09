@@ -1,0 +1,657 @@
+2026-05-05 15:25:42,377 INFO Found 347 *test.csv files under /home/rajib/mTSBench/Datasets/mTSBench
+2026-05-05 15:25:42,377 INFO Pre-anomaly offsets (Type B): [1, 16, 32, 64]
+2026-05-05 15:25:42,377 INFO Type C — normal_lead=128, normal_tail=16
+2026-05-05 15:25:45,653 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/GHL/GHL_17_Lev_fault_Temp_corr_seed_57_vars_23_test.csv: could not convert string to float: 'oid sha256:1092c17a60e431a1c7e3521f402665a7f51559bd57003c2c69787cbbed95b425'
+2026-05-05 15:25:45,654 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/GHL/GHL_18_Lev_fault_Temp_corr_seed_59_vars_23_test.csv: could not convert string to float: 'oid sha256:226314df1414bdbf9b47123a6cfe8f87f453fc67f8153b04f6efd4e196217ab5'
+2026-05-05 15:25:45,656 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/GHL/GHL_19_Lev_fault_Temp_corr_seed_62_vars_23_test.csv: could not convert string to float: 'oid sha256:5c18f748c27c1aabb6c3cf506bfb6838f0c9d298dcab7bb0ef722d79984b8aa3'
+2026-05-05 15:25:45,657 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/GHL/GHL_20_Lev_fault_Temp_corr_seed_67_vars_23_test.csv: could not convert string to float: 'oid sha256:ccf8aff5b2fa3af61d7b4c3816a2b5cfe3889c9fd7f5449e35c5147a9b039791'
+2026-05-05 15:25:45,659 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/GHL/GHL_21_Lev_fault_Temp_corr_seed_73_vars_23_test.csv: could not convert string to float: 'oid sha256:3d0ff6eef99a6aa25fb561389151b483b13a3ba0c688def867e57a604ae598ea'
+2026-05-05 15:25:45,660 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/GHL/GHL_22_Lev_fault_Temp_corr_seed_777_vars_23_test.csv: could not convert string to float: 'oid sha256:2e86dbaeff6d799b2bfadd79a07cd93e9f1d7b83c51127b2383bb533882a63fc'
+2026-05-05 15:25:45,662 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/GHL/GHL_24_Lev_fault_Temp_corr_seed_83_vars_23_test.csv: could not convert string to float: 'oid sha256:7115e219546373890f02a14fcc6ae6e55080aae98db5da73f7396d593089cbc1'
+2026-05-05 15:25:45,663 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/GHL/GHL_41_Lev_corr_Temp_fault_seed_181_vars_23_test.csv: could not convert string to float: 'oid sha256:c6c41d3acfc8cbe86c13af4dc2a9fbfa90efe73a6a5c1e7e45e7f84224366b7f'
+2026-05-05 15:25:45,664 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/GHL/GHL_43_Lev_corr_Temp_fault_seed_189_vars_23_test.csv: could not convert string to float: 'oid sha256:d61cea6a35db0cac614d8b0f453a9b22fe1544b062802213c2bc0491ef29cc85'
+2026-05-05 15:25:45,666 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/GHL/GHL_44_Lev_corr_Temp_fault_seed_190_vars_23_test.csv: could not convert string to float: 'oid sha256:ad0a8678581ad47bed8155a2c88eddf0daa6d687cb2da7b7e22d3b1dd8761336'
+2026-05-05 15:25:45,667 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/GHL/GHL_45_Lev_corr_Temp_fault_seed_193_vars_23_test.csv: could not convert string to float: 'oid sha256:779a95fb5f3bfbfa63d88d0c18db46d703fe9fd58cdbea7ab14ed2144d0078da'
+2026-05-05 15:25:45,669 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/GHL/GHL_46_Lev_corr_Temp_fault_seed_194_vars_23_test.csv: could not convert string to float: 'oid sha256:73d86f26b69059655f25761dfe69479c4ad9d197528e806d7976542b4acf167a'
+2026-05-05 15:25:45,670 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/GHL/GHL_47_Lev_corr_Temp_fault_seed_197_vars_23_test.csv: could not convert string to float: 'oid sha256:1cf2d8ec52b1feba1504aaf3a5fdbd2c66d08f065404f11772103be729366ae4'
+2026-05-05 15:25:45,671 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/GHL/GHL_48_Lev_corr_Temp_fault_seed_199_vars_23_test.csv: could not convert string to float: 'oid sha256:2da0ea0ce2668a4f3c70883771b861b61697583a6264b0e5fefb35376ab10563'
+2026-05-05 15:25:47,223 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_100_test.csv: could not convert string to float: 'oid sha256:4b9c227370c17b9f36caad74f7fb7ababa2faf002b3805237752f8544edf2e9c'
+2026-05-05 15:25:47,224 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_101_test.csv: could not convert string to float: 'oid sha256:5199c07bc6973c4c4f70b61b6c2d99c8498cd65b24893b2b978ccae5fbbece07'
+2026-05-05 15:25:47,226 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_102_test.csv: could not convert string to float: 'oid sha256:4338ccd8faaf1c7bf70008e719b2ce88b93170e121854f5ed50ad3c2f04458c3'
+2026-05-05 15:25:47,227 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_103_test.csv: could not convert string to float: 'oid sha256:0463e8ee30225a67ae98e98a09ef3227b62909d74111912624c041b49c414d83'
+2026-05-05 15:25:47,229 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_104_test.csv: could not convert string to float: 'oid sha256:d0d64c7edc4aec45645811ac2a97400b23467ea43c998587c1b69618ddcc4795'
+2026-05-05 15:25:47,230 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_105_test.csv: could not convert string to float: 'oid sha256:66396f89fd5f8a5fd49e62855be797fa6b457bb3fa8a74279b3329bcf40cf91d'
+2026-05-05 15:25:47,232 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_106_test.csv: could not convert string to float: 'oid sha256:d4bd249a8bd7e7a0ba22aa5f6e146e5423962caa9215688d2bdf6216182d1257'
+2026-05-05 15:25:47,233 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_107_test.csv: could not convert string to float: 'oid sha256:5dddc7f5f3efe7eec9341eae8390d3203d1e9719bb6bf37186b5ad4f0df00b34'
+2026-05-05 15:25:47,235 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_108_test.csv: could not convert string to float: 'oid sha256:56c06f33c52653a5939ad0657a9d0e07e6212b9854c80d2f3822ee9b1c0024f0'
+2026-05-05 15:25:47,236 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_109_test.csv: could not convert string to float: 'oid sha256:50659c923124250f638f3bc41f3fadcc8d17b116a1bb74d5f82bdd1bc280a16c'
+2026-05-05 15:25:47,237 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_111_test.csv: could not convert string to float: 'oid sha256:7d377f6bcd7e7b5ee24ccdc287ece9c9a7af3ec407936109e4faae49b407b653'
+2026-05-05 15:25:47,239 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_112_test.csv: could not convert string to float: 'oid sha256:e5a628baaaa37804aa1176be38f7cb825e87becfe74206db9f0e389a2ccbc734'
+2026-05-05 15:25:47,240 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_113_test.csv: could not convert string to float: 'oid sha256:2ddd170e4561cb9fd08a322d106219519a948ca0ca17cf4d124d91be9bc75933'
+2026-05-05 15:25:47,242 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_114_test.csv: could not convert string to float: 'oid sha256:04ab900ff2512faf68951ba942dd73538ea953617116719bf921526c24a8f156'
+2026-05-05 15:25:47,243 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_115_test.csv: could not convert string to float: 'oid sha256:3f0233c614d1a83e6a9cbef5865e6f88c11d56a4d423158e789cc4b285f60a99'
+2026-05-05 15:25:47,244 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_116_test.csv: could not convert string to float: 'oid sha256:4f6f03b9233b54b39801d65e338ea0a457947d584b25bd572f62daa97c9bf22c'
+2026-05-05 15:25:47,246 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_117_test.csv: could not convert string to float: 'oid sha256:8b54f7cfaef6c7cd87815c0e609595d16287cc62a3ae9b172d3331a2ee96eb00'
+2026-05-05 15:25:47,247 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_118_test.csv: could not convert string to float: 'oid sha256:2e761778c199ad2fa0b618dc9b4d2b6f096d043b71255eb6677c94ef701cf5cb'
+2026-05-05 15:25:47,249 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_119_test.csv: could not convert string to float: 'oid sha256:80d6bd250d2da6314657975f85b4a1612dd2fff836955615a8c015375094cdee'
+2026-05-05 15:25:47,250 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_121_test.csv: could not convert string to float: 'oid sha256:8fe369ad756fdba51dd1e237a652d9b7633863f563bcff2408fdf0e1b493d7dd'
+2026-05-05 15:25:47,252 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_122_test.csv: could not convert string to float: 'oid sha256:31d1330b692417e695bf385016d6010b0faac0dbed9cb8351eb51097de862f4e'
+2026-05-05 15:25:47,253 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_123_test.csv: could not convert string to float: 'oid sha256:63e4638aca97430b2cf1a9914ece204361916fa5d589882df1981ea49de6d81c'
+2026-05-05 15:25:47,254 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_124_test.csv: could not convert string to float: 'oid sha256:6f480dae250c28e83867b2ae1e0d032ebac34314e8cd30f8a327210581ee078a'
+2026-05-05 15:25:47,256 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_200_test.csv: could not convert string to float: 'oid sha256:02b02b828ea766164cceb553717317f87ac842b9b4eb4538566153d3353bd96c'
+2026-05-05 15:25:47,257 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_201_test.csv: could not convert string to float: 'oid sha256:31c56a7e86470510612ca35c1485673aee2b850478555d4c6e42935fc563f4df'
+2026-05-05 15:25:47,259 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_202_test.csv: could not convert string to float: 'oid sha256:f2d22ed7b71546af1b537a477a185cb3a4790570d3f9712e2eba7834de9481b8'
+2026-05-05 15:25:47,260 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_203_test.csv: could not convert string to float: 'oid sha256:e268479e439230d16f07c2fc2383f0721e2c0e468d4fa5b6107462b83f8bc046'
+2026-05-05 15:25:47,261 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_205_test.csv: could not convert string to float: 'oid sha256:1353212d85b5b59e321d534db0fac01f011a7d890d22bb1a75ea0bc26efcc719'
+2026-05-05 15:25:47,263 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_207_test.csv: could not convert string to float: 'oid sha256:a705dd343be3016ceb0b007e09b9370ac296aee4526c051a283cc3ac2fbc77eb'
+2026-05-05 15:25:47,264 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_208_test.csv: could not convert string to float: 'oid sha256:72c6112ff64fd251ef7b548cea74bad2dcb2c65f3716c4e37cb3ebc5ce637feb'
+2026-05-05 15:25:47,266 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_209_test.csv: could not convert string to float: 'oid sha256:8c6575c7abb4053b0219b3483abb43e06f7afac469c7b81bcdbb551cb38b6406'
+2026-05-05 15:25:47,267 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_210_test.csv: could not convert string to float: 'oid sha256:83cc7eaeae91bc659e2a94e5a9249343173bdbb735a465b53e229e1075b4ede2'
+2026-05-05 15:25:47,269 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_212_test.csv: could not convert string to float: 'oid sha256:2c8f4b5286b1132b7e823970761500230a93e6f206e80c9fa8ce8eec4bf58768'
+2026-05-05 15:25:47,270 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_213_test.csv: could not convert string to float: 'oid sha256:1ef2b8fb4582f99307f81f5564a5027fe0460eb7b8c61409bdee3ff6a03d7e5e'
+2026-05-05 15:25:47,271 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_214_test.csv: could not convert string to float: 'oid sha256:39b94392256692027b23aa0e30d065067ba1f0df6358a505fc005aa84c659e1f'
+2026-05-05 15:25:47,273 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_215_test.csv: could not convert string to float: 'oid sha256:ede55796f14a27701b7a247bc2453737f0f9ef749281d5626b854519f804cb81'
+2026-05-05 15:25:47,274 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_217_test.csv: could not convert string to float: 'oid sha256:ed04369f4e4bc9d163f23bb1ad666c6c484f8917580b00241636743116fde41e'
+2026-05-05 15:25:47,276 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_219_test.csv: could not convert string to float: 'oid sha256:8760c31f2b34272082590a5df8b726424627fd5de6b5fcc455f1f31c92430908'
+2026-05-05 15:25:47,277 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_220_test.csv: could not convert string to float: 'oid sha256:c8bc89693d997f0ab55e741c99df6eb72f8a95e14235e5bc3895def84a2c0174'
+2026-05-05 15:25:47,279 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_221_test.csv: could not convert string to float: 'oid sha256:0614b17e2142d6d844bd3e071419a0fc7481aad0f54d83649e9eebcc4e9e2203'
+2026-05-05 15:25:47,280 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_222_test.csv: could not convert string to float: 'oid sha256:1212af47d5bd627028e93269da641db79dc2980b5763268a8bfe12264d83d307'
+2026-05-05 15:25:47,281 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_223_test.csv: could not convert string to float: 'oid sha256:e341f41b09ad6cc383e49c7faefa57cf38c4e1d257fe57120aa96b8844740b15'
+2026-05-05 15:25:47,283 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_228_test.csv: could not convert string to float: 'oid sha256:bbebfa5410c86d4503d440b4068fd07e7fa9f6c39e3f7de58c30d8e46cc08f0a'
+2026-05-05 15:25:47,284 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_230_test.csv: could not convert string to float: 'oid sha256:112f56f6361ff5d35b24744c9a86d26e81c502cc43049cdfb16c643874b7dc38'
+2026-05-05 15:25:47,286 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_232_test.csv: could not convert string to float: 'oid sha256:afb3805c362a86e436101b57c89e6eb7e10b8bc9b7a5ec5d105408bb66df1704'
+2026-05-05 15:25:47,287 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_233_test.csv: could not convert string to float: 'oid sha256:2233bf064350fdac8dff5e0b3a9321490a03e7a77388554d0c77f615d23e91c3'
+2026-05-05 15:25:47,288 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/MITDB/MITDB_234_test.csv: could not convert string to float: 'oid sha256:1db410ad6e88f3237f9b4d9ba0fd161f68ca487a9e35771648c50558a9f6e9d9'
+2026-05-05 15:25:48,757 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/PSM/PSM_test.csv: could not convert string to float: 'oid sha256:4cac499f2eacf6a292eeb94cd5dfc49b9a0bbe02d71c89207e090bde6361ef25'
+2026-05-05 15:26:03,486 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/cicids/cicids_0_test.csv: could not convert string to float: 'oid sha256:cf8dde34690524bf75b0a5a58bb2a048ed58a4b331cf39719a9a2023422ccccb'
+2026-05-05 15:26:03,488 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/cicids/cicids_2_test.csv: could not convert string to float: 'oid sha256:73be4082b3058d5584d2e91dff3fdceb5cfd258d4b6eec338e3cf4b19f0b9879'
+2026-05-05 15:26:03,489 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/cicids/cicids_3_test.csv: could not convert string to float: 'oid sha256:85a9fdbc400c2c16b15cd8900396c32d14fae6559e9c494d58433e5ef2b5d11a'
+2026-05-05 15:26:03,491 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/cicids/cicids_5_test.csv: could not convert string to float: 'oid sha256:114cccf0929119827c97b292507bfa8a0bd6873264141e67c18b25593b616922'
+2026-05-05 15:26:03,492 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/cicids/cicids_6_test.csv: could not convert string to float: 'oid sha256:de67b50695c7a0068eb6dcb1759507479479d5208d3c6dcde966fc794815ca54'
+2026-05-05 15:26:03,494 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/cicids/cicids_7_test.csv: could not convert string to float: 'oid sha256:4d76c64ef634ca74ceaa118e6128643821756093917cff3a9210bd483713c6fa'
+2026-05-05 15:26:03,495 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/creditcard/creditcard_test.csv: could not convert string to float: 'oid sha256:8609583da5931e5cd45ed47d4258a2c0f06d9661e48b68de5350719035542384'
+2026-05-05 15:26:03,534 WARNING Error processing /home/rajib/mTSBench/Datasets/mTSBench/swan/swan_sf_test.csv: could not convert string to float: 'oid sha256:564a3a69292b4a5cfd678fe2c6984aa49f6dabaeadedd44bfccccaec5239484a'
+2026-05-05 15:26:03,534 INFO Usable series: 277  (skipped 70)
+2026-05-05 15:26:03,534 INFO Train series: 250 | Val series: 27
+2026-05-05 15:26:03,535 INFO Building instruction pairs — context=512, pred=64, stride=32, ratio A/B/C = 60%/30%/10%
+2026-05-05 15:26:03,537 INFO   Before balancing — A (normal): 4  B (pre-anom): 49  C (anom-ctx): 12  | target 60%/30%/10%
+2026-05-05 15:26:03,537 INFO   After  balancing — A: 4  B: 2  C: 0  Total: 6
+2026-05-05 15:26:03,552 INFO   Before balancing — A (normal): 1472  B (pre-anom): 56  C (anom-ctx): 14  | target 60%/30%/10%
+2026-05-05 15:26:03,552 INFO   After  balancing — A: 105  B: 56  C: 14  Total: 175
+2026-05-05 15:26:03,558 INFO   Before balancing — A (normal): 406  B (pre-anom): 33  C (anom-ctx): 8  | target 60%/30%/10%
+2026-05-05 15:26:03,558 INFO   After  balancing — A: 61  B: 33  C: 8  Total: 102
+2026-05-05 15:26:03,569 INFO   Before balancing — A (normal): 967  B (pre-anom): 57  C (anom-ctx): 15  | target 60%/30%/10%
+2026-05-05 15:26:03,569 INFO   After  balancing — A: 107  B: 57  C: 15  Total: 179
+2026-05-05 15:26:03,577 INFO   Before balancing — A (normal): 578  B (pre-anom): 46  C (anom-ctx): 13  | target 60%/30%/10%
+2026-05-05 15:26:03,577 INFO   After  balancing — A: 88  B: 46  C: 13  Total: 147
+2026-05-05 15:26:03,580 INFO   Before balancing — A (normal): 269  B (pre-anom): 20  C (anom-ctx): 5  | target 60%/30%/10%
+2026-05-05 15:26:03,581 INFO   After  balancing — A: 37  B: 20  C: 5  Total: 62
+2026-05-05 15:26:03,585 INFO   Before balancing — A (normal): 376  B (pre-anom): 16  C (anom-ctx): 4  | target 60%/30%/10%
+2026-05-05 15:26:03,585 INFO   After  balancing — A: 30  B: 16  C: 4  Total: 50
+2026-05-05 15:26:03,588 INFO   Before balancing — A (normal): 223  B (pre-anom): 26  C (anom-ctx): 6  | target 60%/30%/10%
+2026-05-05 15:26:03,588 INFO   After  balancing — A: 47  B: 26  C: 6  Total: 79
+2026-05-05 15:26:03,591 INFO   Before balancing — A (normal): 192  B (pre-anom): 16  C (anom-ctx): 5  | target 60%/30%/10%
+2026-05-05 15:26:03,591 INFO   After  balancing — A: 31  B: 16  C: 5  Total: 52
+2026-05-05 15:26:03,594 INFO   Before balancing — A (normal): 38  B (pre-anom): 24  C (anom-ctx): 6  | target 60%/30%/10%
+2026-05-05 15:26:03,594 INFO   After  balancing — A: 38  B: 19  C: 6  Total: 63
+2026-05-05 15:26:03,601 INFO   Before balancing — A (normal): 489  B (pre-anom): 52  C (anom-ctx): 14  | target 60%/30%/10%
+2026-05-05 15:26:03,601 INFO   After  balancing — A: 99  B: 52  C: 14  Total: 165
+2026-05-05 15:26:03,611 INFO   Before balancing — A (normal): 903  B (pre-anom): 28  C (anom-ctx): 7  | target 60%/30%/10%
+2026-05-05 15:26:03,611 INFO   After  balancing — A: 52  B: 28  C: 7  Total: 87
+2026-05-05 15:26:03,617 INFO   Before balancing — A (normal): 708  B (pre-anom): 8  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:03,617 INFO   After  balancing — A: 15  B: 8  C: 2  Total: 25
+2026-05-05 15:26:03,622 INFO   Before balancing — A (normal): 602  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,622 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,636 INFO   Before balancing — A (normal): 1520  B (pre-anom): 52  C (anom-ctx): 13  | target 60%/30%/10%
+2026-05-05 15:26:03,637 INFO   After  balancing — A: 97  B: 52  C: 13  Total: 162
+2026-05-05 15:26:03,643 INFO   Before balancing — A (normal): 555  B (pre-anom): 32  C (anom-ctx): 8  | target 60%/30%/10%
+2026-05-05 15:26:03,643 INFO   After  balancing — A: 60  B: 32  C: 8  Total: 100
+2026-05-05 15:26:03,646 INFO   Before balancing — A (normal): 247  B (pre-anom): 8  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:03,646 INFO   After  balancing — A: 15  B: 8  C: 2  Total: 25
+2026-05-05 15:26:03,649 INFO   Before balancing — A (normal): 232  B (pre-anom): 12  C (anom-ctx): 3  | target 60%/30%/10%
+2026-05-05 15:26:03,649 INFO   After  balancing — A: 22  B: 12  C: 3  Total: 37
+2026-05-05 15:26:03,652 INFO   Before balancing — A (normal): 62  B (pre-anom): 16  C (anom-ctx): 4  | target 60%/30%/10%
+2026-05-05 15:26:03,652 INFO   After  balancing — A: 30  B: 16  C: 4  Total: 50
+2026-05-05 15:26:03,654 INFO   Before balancing — A (normal): 144  B (pre-anom): 16  C (anom-ctx): 4  | target 60%/30%/10%
+2026-05-05 15:26:03,654 INFO   After  balancing — A: 30  B: 16  C: 4  Total: 50
+2026-05-05 15:26:03,657 INFO   Before balancing — A (normal): 55  B (pre-anom): 20  C (anom-ctx): 6  | target 60%/30%/10%
+2026-05-05 15:26:03,657 INFO   After  balancing — A: 39  B: 20  C: 6  Total: 65
+2026-05-05 15:26:03,663 INFO   Before balancing — A (normal): 691  B (pre-anom): 12  C (anom-ctx): 3  | target 60%/30%/10%
+2026-05-05 15:26:03,664 INFO   After  balancing — A: 22  B: 12  C: 3  Total: 37
+2026-05-05 15:26:03,673 INFO   Before balancing — A (normal): 818  B (pre-anom): 40  C (anom-ctx): 10  | target 60%/30%/10%
+2026-05-05 15:26:03,673 INFO   After  balancing — A: 75  B: 40  C: 10  Total: 125
+2026-05-05 15:26:03,675 INFO   Before balancing — A (normal): 75  B (pre-anom): 4  C (anom-ctx): 0  | target 60%/30%/10%
+2026-05-05 15:26:03,675 INFO   After  balancing — A: 5  B: 4  C: 0  Total: 9
+2026-05-05 15:26:03,683 INFO   Before balancing — A (normal): 985  B (pre-anom): 16  C (anom-ctx): 3  | target 60%/30%/10%
+2026-05-05 15:26:03,684 INFO   After  balancing — A: 28  B: 16  C: 3  Total: 47
+2026-05-05 15:26:03,692 INFO   Before balancing — A (normal): 867  B (pre-anom): 16  C (anom-ctx): 4  | target 60%/30%/10%
+2026-05-05 15:26:03,692 INFO   After  balancing — A: 30  B: 16  C: 4  Total: 50
+2026-05-05 15:26:03,700 INFO   Before balancing — A (normal): 867  B (pre-anom): 16  C (anom-ctx): 4  | target 60%/30%/10%
+2026-05-05 15:26:03,700 INFO   After  balancing — A: 30  B: 16  C: 4  Total: 50
+2026-05-05 15:26:03,709 INFO   Before balancing — A (normal): 1010  B (pre-anom): 12  C (anom-ctx): 3  | target 60%/30%/10%
+2026-05-05 15:26:03,709 INFO   After  balancing — A: 22  B: 12  C: 3  Total: 37
+2026-05-05 15:26:03,717 INFO   Before balancing — A (normal): 990  B (pre-anom): 16  C (anom-ctx): 4  | target 60%/30%/10%
+2026-05-05 15:26:03,717 INFO   After  balancing — A: 30  B: 16  C: 4  Total: 50
+2026-05-05 15:26:03,718 INFO   Before balancing — A (normal): 45  B (pre-anom): 4  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:03,719 INFO   After  balancing — A: 8  B: 4  C: 2  Total: 14
+2026-05-05 15:26:03,719 INFO   Before balancing — A (normal): 23  B (pre-anom): 4  C (anom-ctx): 0  | target 60%/30%/10%
+2026-05-05 15:26:03,720 INFO   After  balancing — A: 5  B: 4  C: 0  Total: 9
+2026-05-05 15:26:03,721 INFO   Before balancing — A (normal): 52  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,721 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,722 INFO   Before balancing — A (normal): 73  B (pre-anom): 12  C (anom-ctx): 3  | target 60%/30%/10%
+2026-05-05 15:26:03,722 INFO   After  balancing — A: 22  B: 12  C: 3  Total: 37
+2026-05-05 15:26:03,723 INFO   Before balancing — A (normal): 45  B (pre-anom): 4  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:03,723 INFO   After  balancing — A: 8  B: 4  C: 2  Total: 14
+2026-05-05 15:26:03,732 INFO   Before balancing — A (normal): 1010  B (pre-anom): 12  C (anom-ctx): 3  | target 60%/30%/10%
+2026-05-05 15:26:03,732 INFO   After  balancing — A: 22  B: 12  C: 3  Total: 37
+2026-05-05 15:26:03,741 INFO   Before balancing — A (normal): 923  B (pre-anom): 20  C (anom-ctx): 5  | target 60%/30%/10%
+2026-05-05 15:26:03,741 INFO   After  balancing — A: 37  B: 20  C: 5  Total: 62
+2026-05-05 15:26:03,742 INFO   Before balancing — A (normal): 15  B (pre-anom): 4  C (anom-ctx): 0  | target 60%/30%/10%
+2026-05-05 15:26:03,742 INFO   After  balancing — A: 5  B: 4  C: 0  Total: 9
+2026-05-05 15:26:03,743 INFO   Before balancing — A (normal): 45  B (pre-anom): 8  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,743 INFO   After  balancing — A: 13  B: 8  C: 1  Total: 22
+2026-05-05 15:26:03,751 INFO   Before balancing — A (normal): 1024  B (pre-anom): 8  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:03,751 INFO   After  balancing — A: 15  B: 8  C: 2  Total: 25
+2026-05-05 15:26:03,760 INFO   Before balancing — A (normal): 965  B (pre-anom): 16  C (anom-ctx): 4  | target 60%/30%/10%
+2026-05-05 15:26:03,760 INFO   After  balancing — A: 30  B: 16  C: 4  Total: 50
+2026-05-05 15:26:03,769 INFO   Before balancing — A (normal): 985  B (pre-anom): 16  C (anom-ctx): 3  | target 60%/30%/10%
+2026-05-05 15:26:03,769 INFO   After  balancing — A: 28  B: 16  C: 3  Total: 47
+2026-05-05 15:26:03,777 INFO   Before balancing — A (normal): 865  B (pre-anom): 16  C (anom-ctx): 4  | target 60%/30%/10%
+2026-05-05 15:26:03,777 INFO   After  balancing — A: 30  B: 16  C: 4  Total: 50
+2026-05-05 15:26:03,779 INFO   Before balancing — A (normal): 111  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,779 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,780 INFO   Before balancing — A (normal): 62  B (pre-anom): 4  C (anom-ctx): 0  | target 60%/30%/10%
+2026-05-05 15:26:03,781 INFO   After  balancing — A: 5  B: 4  C: 0  Total: 9
+2026-05-05 15:26:03,789 INFO   Before balancing — A (normal): 995  B (pre-anom): 12  C (anom-ctx): 4  | target 60%/30%/10%
+2026-05-05 15:26:03,789 INFO   After  balancing — A: 23  B: 12  C: 4  Total: 39
+2026-05-05 15:26:03,797 INFO   Before balancing — A (normal): 868  B (pre-anom): 16  C (anom-ctx): 4  | target 60%/30%/10%
+2026-05-05 15:26:03,797 INFO   After  balancing — A: 30  B: 16  C: 4  Total: 50
+2026-05-05 15:26:03,799 INFO   Before balancing — A (normal): 97  B (pre-anom): 8  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:03,799 INFO   After  balancing — A: 15  B: 8  C: 2  Total: 25
+2026-05-05 15:26:03,800 INFO   Before balancing — A (normal): 0  B (pre-anom): 0  C (anom-ctx): 0  | target 60%/30%/10%
+2026-05-05 15:26:03,800 WARNING No Type B or C pairs found for this series. Returning all Type A pairs. Check if is_anomaly column exists and has positive labels.
+2026-05-05 15:26:03,801 INFO   Before balancing — A (normal): 57  B (pre-anom): 2  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,801 INFO   After  balancing — A: 4  B: 2  C: 1  Total: 7
+2026-05-05 15:26:03,802 INFO   Before balancing — A (normal): 3  B (pre-anom): 4  C (anom-ctx): 0  | target 60%/30%/10%
+2026-05-05 15:26:03,802 INFO   After  balancing — A: 3  B: 1  C: 0  Total: 4
+2026-05-05 15:26:03,844 INFO   Before balancing — A (normal): 2159  B (pre-anom): 146  C (anom-ctx): 37  | target 60%/30%/10%
+2026-05-05 15:26:03,844 INFO   After  balancing — A: 274  B: 146  C: 37  Total: 457
+2026-05-05 15:26:03,847 INFO   Before balancing — A (normal): 265  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,847 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,850 INFO   Before balancing — A (normal): 272  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,850 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,852 INFO   Before balancing — A (normal): 273  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,853 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,855 INFO   Before balancing — A (normal): 264  B (pre-anom): 8  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:03,855 INFO   After  balancing — A: 15  B: 8  C: 2  Total: 25
+2026-05-05 15:26:03,858 INFO   Before balancing — A (normal): 229  B (pre-anom): 12  C (anom-ctx): 3  | target 60%/30%/10%
+2026-05-05 15:26:03,858 INFO   After  balancing — A: 22  B: 12  C: 3  Total: 37
+2026-05-05 15:26:03,861 INFO   Before balancing — A (normal): 235  B (pre-anom): 12  C (anom-ctx): 3  | target 60%/30%/10%
+2026-05-05 15:26:03,861 INFO   After  balancing — A: 22  B: 12  C: 3  Total: 37
+2026-05-05 15:26:03,864 INFO   Before balancing — A (normal): 229  B (pre-anom): 12  C (anom-ctx): 3  | target 60%/30%/10%
+2026-05-05 15:26:03,864 INFO   After  balancing — A: 22  B: 12  C: 3  Total: 37
+2026-05-05 15:26:03,866 INFO   Before balancing — A (normal): 267  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,867 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,869 INFO   Before balancing — A (normal): 228  B (pre-anom): 12  C (anom-ctx): 3  | target 60%/30%/10%
+2026-05-05 15:26:03,869 INFO   After  balancing — A: 22  B: 12  C: 3  Total: 37
+2026-05-05 15:26:03,872 INFO   Before balancing — A (normal): 271  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,872 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,875 INFO   Before balancing — A (normal): 271  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,875 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,877 INFO   Before balancing — A (normal): 273  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,878 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,880 INFO   Before balancing — A (normal): 248  B (pre-anom): 8  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:03,880 INFO   After  balancing — A: 15  B: 8  C: 2  Total: 25
+2026-05-05 15:26:03,883 INFO   Before balancing — A (normal): 247  B (pre-anom): 8  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:03,883 INFO   After  balancing — A: 15  B: 8  C: 2  Total: 25
+2026-05-05 15:26:03,886 INFO   Before balancing — A (normal): 234  B (pre-anom): 12  C (anom-ctx): 3  | target 60%/30%/10%
+2026-05-05 15:26:03,886 INFO   After  balancing — A: 22  B: 12  C: 3  Total: 37
+2026-05-05 15:26:03,889 INFO   Before balancing — A (normal): 234  B (pre-anom): 12  C (anom-ctx): 3  | target 60%/30%/10%
+2026-05-05 15:26:03,889 INFO   After  balancing — A: 22  B: 12  C: 3  Total: 37
+2026-05-05 15:26:03,891 INFO   Before balancing — A (normal): 271  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,892 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,894 INFO   Before balancing — A (normal): 224  B (pre-anom): 12  C (anom-ctx): 3  | target 60%/30%/10%
+2026-05-05 15:26:03,894 INFO   After  balancing — A: 22  B: 12  C: 3  Total: 37
+2026-05-05 15:26:03,897 INFO   Before balancing — A (normal): 249  B (pre-anom): 8  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:03,897 INFO   After  balancing — A: 15  B: 8  C: 2  Total: 25
+2026-05-05 15:26:03,900 INFO   Before balancing — A (normal): 249  B (pre-anom): 8  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:03,900 INFO   After  balancing — A: 15  B: 8  C: 2  Total: 25
+2026-05-05 15:26:03,902 INFO   Before balancing — A (normal): 272  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,903 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,905 INFO   Before balancing — A (normal): 230  B (pre-anom): 12  C (anom-ctx): 3  | target 60%/30%/10%
+2026-05-05 15:26:03,906 INFO   After  balancing — A: 22  B: 12  C: 3  Total: 37
+2026-05-05 15:26:03,908 INFO   Before balancing — A (normal): 256  B (pre-anom): 8  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:03,908 INFO   After  balancing — A: 15  B: 8  C: 2  Total: 25
+2026-05-05 15:26:03,911 INFO   Before balancing — A (normal): 232  B (pre-anom): 12  C (anom-ctx): 3  | target 60%/30%/10%
+2026-05-05 15:26:03,911 INFO   After  balancing — A: 22  B: 12  C: 3  Total: 37
+2026-05-05 15:26:03,914 INFO   Before balancing — A (normal): 230  B (pre-anom): 12  C (anom-ctx): 3  | target 60%/30%/10%
+2026-05-05 15:26:03,914 INFO   After  balancing — A: 22  B: 12  C: 3  Total: 37
+2026-05-05 15:26:03,916 INFO   Before balancing — A (normal): 273  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,917 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,919 INFO   Before balancing — A (normal): 251  B (pre-anom): 8  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:03,919 INFO   After  balancing — A: 15  B: 8  C: 2  Total: 25
+2026-05-05 15:26:03,922 INFO   Before balancing — A (normal): 272  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,922 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,925 INFO   Before balancing — A (normal): 275  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,925 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,926 INFO   Before balancing — A (normal): 25  B (pre-anom): 8  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,926 INFO   After  balancing — A: 13  B: 8  C: 1  Total: 22
+2026-05-05 15:26:03,927 INFO   Before balancing — A (normal): 35  B (pre-anom): 8  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:03,927 INFO   After  balancing — A: 15  B: 8  C: 2  Total: 25
+2026-05-05 15:26:03,928 INFO   Before balancing — A (normal): 29  B (pre-anom): 4  C (anom-ctx): 0  | target 60%/30%/10%
+2026-05-05 15:26:03,928 INFO   After  balancing — A: 5  B: 4  C: 0  Total: 9
+2026-05-05 15:26:03,929 INFO   Before balancing — A (normal): 13  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,929 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,930 INFO   Before balancing — A (normal): 70  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,930 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,931 INFO   Before balancing — A (normal): 93  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,931 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,933 INFO   Before balancing — A (normal): 76  B (pre-anom): 12  C (anom-ctx): 3  | target 60%/30%/10%
+2026-05-05 15:26:03,933 INFO   After  balancing — A: 22  B: 12  C: 3  Total: 37
+2026-05-05 15:26:03,934 INFO   Before balancing — A (normal): 17  B (pre-anom): 4  C (anom-ctx): 0  | target 60%/30%/10%
+2026-05-05 15:26:03,934 INFO   After  balancing — A: 5  B: 4  C: 0  Total: 9
+2026-05-05 15:26:03,935 INFO   Before balancing — A (normal): 24  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,935 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,935 INFO   Before balancing — A (normal): 22  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,936 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,936 INFO   Before balancing — A (normal): 40  B (pre-anom): 4  C (anom-ctx): 0  | target 60%/30%/10%
+2026-05-05 15:26:03,937 INFO   After  balancing — A: 5  B: 4  C: 0  Total: 9
+2026-05-05 15:26:03,937 INFO   Before balancing — A (normal): 29  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,937 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,939 INFO   Before balancing — A (normal): 152  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,939 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,940 INFO   Before balancing — A (normal): 55  B (pre-anom): 8  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:03,940 INFO   After  balancing — A: 15  B: 8  C: 2  Total: 25
+2026-05-05 15:26:03,942 INFO   Before balancing — A (normal): 150  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,942 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,943 INFO   Before balancing — A (normal): 54  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,943 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,944 INFO   Before balancing — A (normal): 22  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,944 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,945 INFO   Before balancing — A (normal): 37  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,945 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,945 INFO   Before balancing — A (normal): 4  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,946 INFO   After  balancing — A: 4  B: 2  C: 0  Total: 6
+2026-05-05 15:26:03,946 INFO   Before balancing — A (normal): 32  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,947 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,947 INFO   Before balancing — A (normal): 34  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,947 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,948 INFO   Before balancing — A (normal): 10  B (pre-anom): 8  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:03,948 INFO   After  balancing — A: 10  B: 5  C: 1  Total: 16
+2026-05-05 15:26:03,954 INFO   Before balancing — A (normal): 751  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,954 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,960 INFO   Before balancing — A (normal): 776  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,961 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,967 INFO   Before balancing — A (normal): 779  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,967 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,973 INFO   Before balancing — A (normal): 700  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,973 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,978 INFO   Before balancing — A (normal): 709  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,979 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,983 INFO   Before balancing — A (normal): 622  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,984 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,989 INFO   Before balancing — A (normal): 644  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,989 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,994 INFO   Before balancing — A (normal): 613  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,994 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:03,999 INFO   Before balancing — A (normal): 638  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:03,999 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,004 INFO   Before balancing — A (normal): 583  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,005 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,009 INFO   Before balancing — A (normal): 508  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,009 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,015 INFO   Before balancing — A (normal): 714  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,015 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,018 INFO   Before balancing — A (normal): 232  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,018 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,020 INFO   Before balancing — A (normal): 209  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,020 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,022 INFO   Before balancing — A (normal): 215  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,022 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,024 INFO   Before balancing — A (normal): 214  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,025 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,026 INFO   Before balancing — A (normal): 110  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,026 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,027 INFO   Before balancing — A (normal): 103  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,028 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,030 INFO   Before balancing — A (normal): 176  B (pre-anom): 4  C (anom-ctx): 0  | target 60%/30%/10%
+2026-05-05 15:26:04,030 INFO   After  balancing — A: 5  B: 4  C: 0  Total: 9
+2026-05-05 15:26:04,032 INFO   Before balancing — A (normal): 125  B (pre-anom): 4  C (anom-ctx): 0  | target 60%/30%/10%
+2026-05-05 15:26:04,032 INFO   After  balancing — A: 5  B: 4  C: 0  Total: 9
+2026-05-05 15:26:04,034 INFO   Before balancing — A (normal): 125  B (pre-anom): 4  C (anom-ctx): 0  | target 60%/30%/10%
+2026-05-05 15:26:04,034 INFO   After  balancing — A: 5  B: 4  C: 0  Total: 9
+2026-05-05 15:26:04,036 INFO   Before balancing — A (normal): 215  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,036 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,038 INFO   Before balancing — A (normal): 195  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,039 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,041 INFO   Before balancing — A (normal): 147  B (pre-anom): 4  C (anom-ctx): 0  | target 60%/30%/10%
+2026-05-05 15:26:04,041 INFO   After  balancing — A: 5  B: 4  C: 0  Total: 9
+2026-05-05 15:26:04,043 INFO   Before balancing — A (normal): 117  B (pre-anom): 4  C (anom-ctx): 0  | target 60%/30%/10%
+2026-05-05 15:26:04,043 INFO   After  balancing — A: 5  B: 4  C: 0  Total: 9
+2026-05-05 15:26:04,045 INFO   Before balancing — A (normal): 146  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,045 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,047 INFO   Before balancing — A (normal): 146  B (pre-anom): 4  C (anom-ctx): 0  | target 60%/30%/10%
+2026-05-05 15:26:04,047 INFO   After  balancing — A: 5  B: 4  C: 0  Total: 9
+2026-05-05 15:26:04,049 INFO   Before balancing — A (normal): 202  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,050 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,052 INFO   Before balancing — A (normal): 209  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,052 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,054 INFO   Before balancing — A (normal): 137  B (pre-anom): 4  C (anom-ctx): 0  | target 60%/30%/10%
+2026-05-05 15:26:04,054 INFO   After  balancing — A: 5  B: 4  C: 0  Total: 9
+2026-05-05 15:26:04,056 INFO   Before balancing — A (normal): 209  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,056 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,058 INFO   Before balancing — A (normal): 178  B (pre-anom): 4  C (anom-ctx): 0  | target 60%/30%/10%
+2026-05-05 15:26:04,058 INFO   After  balancing — A: 5  B: 4  C: 0  Total: 9
+2026-05-05 15:26:04,060 INFO   Before balancing — A (normal): 204  B (pre-anom): 8  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:04,061 INFO   After  balancing — A: 15  B: 8  C: 2  Total: 25
+2026-05-05 15:26:04,063 INFO   Before balancing — A (normal): 205  B (pre-anom): 8  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:04,063 INFO   After  balancing — A: 15  B: 8  C: 2  Total: 25
+2026-05-05 15:26:04,065 INFO   Before balancing — A (normal): 196  B (pre-anom): 8  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:04,065 INFO   After  balancing — A: 15  B: 8  C: 2  Total: 25
+2026-05-05 15:26:04,068 INFO   Before balancing — A (normal): 198  B (pre-anom): 8  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:04,068 INFO   After  balancing — A: 15  B: 8  C: 2  Total: 25
+2026-05-05 15:26:04,070 INFO   Before balancing — A (normal): 142  B (pre-anom): 4  C (anom-ctx): 0  | target 60%/30%/10%
+2026-05-05 15:26:04,070 INFO   After  balancing — A: 5  B: 4  C: 0  Total: 9
+2026-05-05 15:26:04,072 INFO   Before balancing — A (normal): 153  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,073 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,075 INFO   Before balancing — A (normal): 215  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,075 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,078 INFO   Before balancing — A (normal): 223  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,079 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,081 INFO   Before balancing — A (normal): 216  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,081 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,083 INFO   Before balancing — A (normal): 212  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,084 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,086 INFO   Before balancing — A (normal): 214  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,086 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,088 INFO   Before balancing — A (normal): 230  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,088 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,091 INFO   Before balancing — A (normal): 160  B (pre-anom): 4  C (anom-ctx): 0  | target 60%/30%/10%
+2026-05-05 15:26:04,091 INFO   After  balancing — A: 5  B: 4  C: 0  Total: 9
+2026-05-05 15:26:04,093 INFO   Before balancing — A (normal): 226  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,093 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,095 INFO   Before balancing — A (normal): 226  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,095 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,097 INFO   Before balancing — A (normal): 193  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,098 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,100 INFO   Before balancing — A (normal): 202  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,100 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,102 INFO   Before balancing — A (normal): 232  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,103 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,104 INFO   Before balancing — A (normal): 74  B (pre-anom): 8  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:04,104 INFO   After  balancing — A: 15  B: 8  C: 2  Total: 25
+2026-05-05 15:26:04,106 INFO   Before balancing — A (normal): 173  B (pre-anom): 12  C (anom-ctx): 3  | target 60%/30%/10%
+2026-05-05 15:26:04,107 INFO   After  balancing — A: 22  B: 12  C: 3  Total: 37
+2026-05-05 15:26:04,109 INFO   Before balancing — A (normal): 184  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,109 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,111 INFO   Before balancing — A (normal): 188  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,111 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,113 INFO   Before balancing — A (normal): 159  B (pre-anom): 12  C (anom-ctx): 3  | target 60%/30%/10%
+2026-05-05 15:26:04,114 INFO   After  balancing — A: 22  B: 12  C: 3  Total: 37
+2026-05-05 15:26:04,115 INFO   Before balancing — A (normal): 188  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:04,116 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:04,118 INFO   Before balancing — A (normal): 168  B (pre-anom): 8  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:04,118 INFO   After  balancing — A: 15  B: 8  C: 2  Total: 25
+2026-05-05 15:26:04,120 INFO   Before balancing — A (normal): 196  B (pre-anom): 4  C (anom-ctx): 0  | target 60%/30%/10%
+2026-05-05 15:26:04,120 INFO   After  balancing — A: 5  B: 4  C: 0  Total: 9
+2026-05-05 15:26:04,123 INFO   Before balancing — A (normal): 210  B (pre-anom): 8  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:04,123 INFO   After  balancing — A: 15  B: 8  C: 2  Total: 25
+2026-05-05 15:26:04,124 INFO   Before balancing — A (normal): 79  B (pre-anom): 12  C (anom-ctx): 4  | target 60%/30%/10%
+2026-05-05 15:26:04,125 INFO   After  balancing — A: 23  B: 12  C: 4  Total: 39
+2026-05-05 15:26:04,129 INFO   Before balancing — A (normal): 303  B (pre-anom): 32  C (anom-ctx): 8  | target 60%/30%/10%
+2026-05-05 15:26:04,129 INFO   After  balancing — A: 60  B: 32  C: 8  Total: 100
+2026-05-05 15:26:04,132 INFO   Before balancing — A (normal): 172  B (pre-anom): 32  C (anom-ctx): 8  | target 60%/30%/10%
+2026-05-05 15:26:04,133 INFO   After  balancing — A: 60  B: 32  C: 8  Total: 100
+2026-05-05 15:26:04,138 INFO   Before balancing — A (normal): 343  B (pre-anom): 35  C (anom-ctx): 9  | target 60%/30%/10%
+2026-05-05 15:26:04,138 INFO   After  balancing — A: 65  B: 35  C: 9  Total: 109
+2026-05-05 15:26:04,144 INFO   Before balancing — A (normal): 400  B (pre-anom): 60  C (anom-ctx): 15  | target 60%/30%/10%
+2026-05-05 15:26:04,144 INFO   After  balancing — A: 112  B: 60  C: 15  Total: 187
+2026-05-05 15:26:04,148 INFO   Before balancing — A (normal): 205  B (pre-anom): 36  C (anom-ctx): 9  | target 60%/30%/10%
+2026-05-05 15:26:04,148 INFO   After  balancing — A: 67  B: 36  C: 9  Total: 112
+2026-05-05 15:26:04,150 INFO   Before balancing — A (normal): 45  B (pre-anom): 26  C (anom-ctx): 7  | target 60%/30%/10%
+2026-05-05 15:26:04,151 INFO   After  balancing — A: 45  B: 22  C: 7  Total: 74
+2026-05-05 15:26:04,155 INFO   Before balancing — A (normal): 330  B (pre-anom): 24  C (anom-ctx): 6  | target 60%/30%/10%
+2026-05-05 15:26:04,155 INFO   After  balancing — A: 45  B: 24  C: 6  Total: 75
+2026-05-05 15:26:04,161 INFO   Before balancing — A (normal): 291  B (pre-anom): 63  C (anom-ctx): 15  | target 60%/30%/10%
+2026-05-05 15:26:04,161 INFO   After  balancing — A: 116  B: 63  C: 15  Total: 194
+2026-05-05 15:26:04,167 INFO   Before balancing — A (normal): 260  B (pre-anom): 64  C (anom-ctx): 16  | target 60%/30%/10%
+2026-05-05 15:26:04,167 INFO   After  balancing — A: 120  B: 64  C: 16  Total: 200
+2026-05-05 15:26:04,173 INFO   Before balancing — A (normal): 285  B (pre-anom): 63  C (anom-ctx): 16  | target 60%/30%/10%
+2026-05-05 15:26:04,173 INFO   After  balancing — A: 118  B: 63  C: 16  Total: 197
+2026-05-05 15:26:04,177 INFO   Before balancing — A (normal): 209  B (pre-anom): 24  C (anom-ctx): 6  | target 60%/30%/10%
+2026-05-05 15:26:04,177 INFO   After  balancing — A: 45  B: 24  C: 6  Total: 75
+2026-05-05 15:26:04,183 INFO   Before balancing — A (normal): 391  B (pre-anom): 36  C (anom-ctx): 9  | target 60%/30%/10%
+2026-05-05 15:26:04,183 INFO   After  balancing — A: 67  B: 36  C: 9  Total: 112
+2026-05-05 15:26:04,186 INFO   Before balancing — A (normal): 312  B (pre-anom): 19  C (anom-ctx): 5  | target 60%/30%/10%
+2026-05-05 15:26:04,187 INFO   After  balancing — A: 35  B: 19  C: 5  Total: 59
+2026-05-05 15:26:04,193 INFO   Before balancing — A (normal): 238  B (pre-anom): 83  C (anom-ctx): 21  | target 60%/30%/10%
+2026-05-05 15:26:04,193 INFO   After  balancing — A: 156  B: 83  C: 21  Total: 260
+2026-05-05 15:26:04,196 INFO   Before balancing — A (normal): 180  B (pre-anom): 26  C (anom-ctx): 6  | target 60%/30%/10%
+2026-05-05 15:26:04,196 INFO   After  balancing — A: 47  B: 26  C: 6  Total: 79
+2026-05-05 15:26:04,200 INFO   Before balancing — A (normal): 227  B (pre-anom): 28  C (anom-ctx): 7  | target 60%/30%/10%
+2026-05-05 15:26:04,200 INFO   After  balancing — A: 52  B: 28  C: 7  Total: 87
+2026-05-05 15:26:04,247 INFO   Before balancing — A (normal): 4910  B (pre-anom): 151  C (anom-ctx): 39  | target 60%/30%/10%
+2026-05-05 15:26:04,248 INFO   After  balancing — A: 285  B: 151  C: 39  Total: 475
+2026-05-05 15:26:04,292 INFO   Before balancing — A (normal): 5082  B (pre-anom): 99  C (anom-ctx): 22  | target 60%/30%/10%
+2026-05-05 15:26:04,293 INFO   After  balancing — A: 181  B: 99  C: 22  Total: 302
+2026-05-05 15:26:04,353 INFO   Before balancing — A (normal): 5179  B (pre-anom): 65  C (anom-ctx): 16  | target 60%/30%/10%
+2026-05-05 15:26:04,353 INFO   After  balancing — A: 121  B: 65  C: 16  Total: 202
+2026-05-05 15:26:04,404 INFO   Before balancing — A (normal): 3258  B (pre-anom): 472  C (anom-ctx): 118  | target 60%/30%/10%
+2026-05-05 15:26:04,404 INFO   After  balancing — A: 885  B: 472  C: 118  Total: 1475
+2026-05-05 15:26:04,457 INFO   Before balancing — A (normal): 3541  B (pre-anom): 482  C (anom-ctx): 120  | target 60%/30%/10%
+2026-05-05 15:26:04,457 INFO   After  balancing — A: 902  B: 482  C: 120  Total: 1504
+2026-05-05 15:26:04,516 INFO   Before balancing — A (normal): 2359  B (pre-anom): 720  C (anom-ctx): 179  | target 60%/30%/10%
+2026-05-05 15:26:04,517 INFO   After  balancing — A: 1348  B: 720  C: 179  Total: 2247
+2026-05-05 15:26:04,568 INFO   Before balancing — A (normal): 4761  B (pre-anom): 201  C (anom-ctx): 50  | target 60%/30%/10%
+2026-05-05 15:26:04,569 INFO   After  balancing — A: 376  B: 201  C: 50  Total: 627
+2026-05-05 15:26:04,614 INFO   Before balancing — A (normal): 5423  B (pre-anom): 48  C (anom-ctx): 12  | target 60%/30%/10%
+2026-05-05 15:26:04,614 INFO   After  balancing — A: 90  B: 48  C: 12  Total: 150
+2026-05-05 15:26:04,657 INFO   Before balancing — A (normal): 5463  B (pre-anom): 21  C (anom-ctx): 6  | target 60%/30%/10%
+2026-05-05 15:26:04,657 INFO   After  balancing — A: 40  B: 21  C: 6  Total: 67
+2026-05-05 15:26:04,722 INFO   Before balancing — A (normal): 4836  B (pre-anom): 159  C (anom-ctx): 39  | target 60%/30%/10%
+2026-05-05 15:26:04,722 INFO   After  balancing — A: 297  B: 159  C: 39  Total: 495
+2026-05-05 15:26:04,766 INFO   Before balancing — A (normal): 5505  B (pre-anom): 34  C (anom-ctx): 9  | target 60%/30%/10%
+2026-05-05 15:26:04,766 INFO   After  balancing — A: 64  B: 34  C: 9  Total: 107
+2026-05-05 15:26:04,813 INFO   Before balancing — A (normal): 4781  B (pre-anom): 202  C (anom-ctx): 51  | target 60%/30%/10%
+2026-05-05 15:26:04,813 INFO   After  balancing — A: 379  B: 202  C: 51  Total: 632
+2026-05-05 15:26:04,868 INFO   Before balancing — A (normal): 2674  B (pre-anom): 601  C (anom-ctx): 151  | target 60%/30%/10%
+2026-05-05 15:26:04,869 INFO   After  balancing — A: 1128  B: 601  C: 151  Total: 1880
+2026-05-05 15:26:04,951 INFO   Before balancing — A (normal): 152  B (pre-anom): 1901  C (anom-ctx): 477  | target 60%/30%/10%
+2026-05-05 15:26:04,951 INFO   After  balancing — A: 152  B: 76  C: 25  Total: 253
+2026-05-05 15:26:05,016 INFO   Before balancing — A (normal): 2578  B (pre-anom): 587  C (anom-ctx): 424  | target 60%/30%/10%
+2026-05-05 15:26:05,016 INFO   After  balancing — A: 1516  B: 587  C: 424  Total: 2527
+2026-05-05 15:26:05,078 INFO   Before balancing — A (normal): 2708  B (pre-anom): 804  C (anom-ctx): 206  | target 60%/30%/10%
+2026-05-05 15:26:05,079 INFO   After  balancing — A: 1515  B: 804  C: 206  Total: 2525
+2026-05-05 15:26:05,135 INFO   Before balancing — A (normal): 3601  B (pre-anom): 586  C (anom-ctx): 145  | target 60%/30%/10%
+2026-05-05 15:26:05,136 INFO   After  balancing — A: 1096  B: 586  C: 145  Total: 1827
+2026-05-05 15:26:05,211 INFO   Before balancing — A (normal): 4097  B (pre-anom): 352  C (anom-ctx): 88  | target 60%/30%/10%
+2026-05-05 15:26:05,212 INFO   After  balancing — A: 660  B: 352  C: 88  Total: 1100
+2026-05-05 15:26:05,261 INFO   Before balancing — A (normal): 4780  B (pre-anom): 204  C (anom-ctx): 51  | target 60%/30%/10%
+2026-05-05 15:26:05,261 INFO   After  balancing — A: 382  B: 204  C: 51  Total: 637
+2026-05-05 15:26:05,305 INFO   Before balancing — A (normal): 5417  B (pre-anom): 60  C (anom-ctx): 15  | target 60%/30%/10%
+2026-05-05 15:26:05,305 INFO   After  balancing — A: 112  B: 60  C: 15  Total: 187
+2026-05-05 15:26:05,351 INFO   Before balancing — A (normal): 4574  B (pre-anom): 218  C (anom-ctx): 54  | target 60%/30%/10%
+2026-05-05 15:26:05,351 INFO   After  balancing — A: 407  B: 218  C: 54  Total: 679
+2026-05-05 15:26:05,398 INFO   Before balancing — A (normal): 4391  B (pre-anom): 259  C (anom-ctx): 64  | target 60%/30%/10%
+2026-05-05 15:26:05,398 INFO   After  balancing — A: 484  B: 259  C: 64  Total: 807
+2026-05-05 15:26:05,442 INFO   Before balancing — A (normal): 5506  B (pre-anom): 32  C (anom-ctx): 8  | target 60%/30%/10%
+2026-05-05 15:26:05,442 INFO   After  balancing — A: 60  B: 32  C: 8  Total: 100
+2026-05-05 15:26:05,498 INFO   Before balancing — A (normal): 2545  B (pre-anom): 570  C (anom-ctx): 87  | target 60%/30%/10%
+2026-05-05 15:26:05,498 INFO   After  balancing — A: 985  B: 570  C: 87  Total: 1642
+2026-05-05 15:26:05,574 INFO   Before balancing — A (normal): 4352  B (pre-anom): 338  C (anom-ctx): 87  | target 60%/30%/10%
+2026-05-05 15:26:05,574 INFO   After  balancing — A: 637  B: 338  C: 87  Total: 1062
+2026-05-05 15:26:05,621 INFO   Before balancing — A (normal): 5238  B (pre-anom): 104  C (anom-ctx): 27  | target 60%/30%/10%
+2026-05-05 15:26:05,621 INFO   After  balancing — A: 196  B: 104  C: 27  Total: 327
+2026-05-05 15:26:05,667 INFO   Before balancing — A (normal): 5041  B (pre-anom): 124  C (anom-ctx): 31  | target 60%/30%/10%
+2026-05-05 15:26:05,667 INFO   After  balancing — A: 232  B: 124  C: 31  Total: 387
+2026-05-05 15:26:05,712 INFO   Before balancing — A (normal): 5234  B (pre-anom): 123  C (anom-ctx): 31  | target 60%/30%/10%
+2026-05-05 15:26:05,713 INFO   After  balancing — A: 230  B: 123  C: 31  Total: 384
+2026-05-05 15:26:05,755 INFO   Before balancing — A (normal): 5589  B (pre-anom): 20  C (anom-ctx): 5  | target 60%/30%/10%
+2026-05-05 15:26:05,755 INFO   After  balancing — A: 37  B: 20  C: 5  Total: 62
+2026-05-05 15:26:05,800 INFO   Before balancing — A (normal): 4854  B (pre-anom): 145  C (anom-ctx): 37  | target 60%/30%/10%
+2026-05-05 15:26:05,800 INFO   After  balancing — A: 273  B: 145  C: 37  Total: 455
+2026-05-05 15:26:05,873 INFO   Before balancing — A (normal): 5138  B (pre-anom): 128  C (anom-ctx): 32  | target 60%/30%/10%
+2026-05-05 15:26:05,874 INFO   After  balancing — A: 240  B: 128  C: 32  Total: 400
+2026-05-05 15:26:05,921 INFO   Before balancing — A (normal): 4996  B (pre-anom): 146  C (anom-ctx): 38  | target 60%/30%/10%
+2026-05-05 15:26:05,921 INFO   After  balancing — A: 275  B: 146  C: 38  Total: 459
+2026-05-05 15:26:05,964 INFO   Before balancing — A (normal): 5683  B (pre-anom): 8  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:05,964 INFO   After  balancing — A: 15  B: 8  C: 2  Total: 25
+2026-05-05 15:26:06,033 INFO   Before balancing — A (normal): 1042  B (pre-anom): 1130  C (anom-ctx): 282  | target 60%/30%/10%
+2026-05-05 15:26:06,033 INFO   After  balancing — A: 1042  B: 521  C: 173  Total: 1736
+2026-05-05 15:26:06,083 INFO   Before balancing — A (normal): 3872  B (pre-anom): 384  C (anom-ctx): 96  | target 60%/30%/10%
+2026-05-05 15:26:06,084 INFO   After  balancing — A: 720  B: 384  C: 96  Total: 1200
+2026-05-05 15:26:06,164 INFO   Before balancing — A (normal): 87  B (pre-anom): 1639  C (anom-ctx): 397  | target 60%/30%/10%
+2026-05-05 15:26:06,164 INFO   After  balancing — A: 87  B: 43  C: 14  Total: 144
+2026-05-05 15:26:06,208 INFO   Before balancing — A (normal): 5249  B (pre-anom): 94  C (anom-ctx): 24  | target 60%/30%/10%
+2026-05-05 15:26:06,209 INFO   After  balancing — A: 176  B: 94  C: 24  Total: 294
+2026-05-05 15:26:06,260 INFO   Before balancing — A (normal): 3762  B (pre-anom): 407  C (anom-ctx): 103  | target 60%/30%/10%
+2026-05-05 15:26:06,261 INFO   After  balancing — A: 765  B: 407  C: 103  Total: 1275
+2026-05-05 15:26:06,334 INFO   Before balancing — A (normal): 5627  B (pre-anom): 21  C (anom-ctx): 6  | target 60%/30%/10%
+2026-05-05 15:26:06,335 INFO   After  balancing — A: 40  B: 21  C: 6  Total: 67
+2026-05-05 15:26:06,403 INFO   Before balancing — A (normal): 1209  B (pre-anom): 1118  C (anom-ctx): 287  | target 60%/30%/10%
+2026-05-05 15:26:06,404 INFO   After  balancing — A: 1209  B: 604  C: 201  Total: 2014
+2026-05-05 15:26:06,496 INFO   Before balancing — A (normal): 96  B (pre-anom): 2344  C (anom-ctx): 584  | target 60%/30%/10%
+2026-05-05 15:26:06,496 INFO   After  balancing — A: 96  B: 48  C: 16  Total: 160
+2026-05-05 15:26:06,571 INFO   Before balancing — A (normal): 604  B (pre-anom): 1443  C (anom-ctx): 360  | target 60%/30%/10%
+2026-05-05 15:26:06,572 INFO   After  balancing — A: 604  B: 302  C: 100  Total: 1006
+2026-05-05 15:26:06,644 INFO   Before balancing — A (normal): 765  B (pre-anom): 1427  C (anom-ctx): 368  | target 60%/30%/10%
+2026-05-05 15:26:06,644 INFO   After  balancing — A: 765  B: 382  C: 127  Total: 1274
+2026-05-05 15:26:06,692 INFO   Before balancing — A (normal): 4354  B (pre-anom): 241  C (anom-ctx): 61  | target 60%/30%/10%
+2026-05-05 15:26:06,693 INFO   After  balancing — A: 452  B: 241  C: 61  Total: 754
+2026-05-05 15:26:06,747 INFO   Before balancing — A (normal): 161  B (pre-anom): 669  C (anom-ctx): 168  | target 60%/30%/10%
+2026-05-05 15:26:06,747 INFO   After  balancing — A: 161  B: 80  C: 26  Total: 267
+2026-05-05 15:26:06,815 INFO   Before balancing — A (normal): 1203  B (pre-anom): 1144  C (anom-ctx): 283  | target 60%/30%/10%
+2026-05-05 15:26:06,815 INFO   After  balancing — A: 1203  B: 601  C: 200  Total: 2004
+2026-05-05 15:26:06,899 INFO   Before balancing — A (normal): 736  B (pre-anom): 1264  C (anom-ctx): 315  | target 60%/30%/10%
+2026-05-05 15:26:06,899 INFO   After  balancing — A: 736  B: 368  C: 122  Total: 1226
+2026-05-05 15:26:06,987 INFO   Before balancing — A (normal): 582  B (pre-anom): 1380  C (anom-ctx): 363  | target 60%/30%/10%
+2026-05-05 15:26:06,987 INFO   After  balancing — A: 582  B: 291  C: 97  Total: 970
+2026-05-05 15:26:07,077 INFO   Before balancing — A (normal): 189  B (pre-anom): 1329  C (anom-ctx): 356  | target 60%/30%/10%
+2026-05-05 15:26:07,077 INFO   After  balancing — A: 189  B: 94  C: 31  Total: 314
+2026-05-05 15:26:07,132 INFO   Before balancing — A (normal): 5334  B (pre-anom): 76  C (anom-ctx): 19  | target 60%/30%/10%
+2026-05-05 15:26:07,132 INFO   After  balancing — A: 142  B: 76  C: 19  Total: 237
+2026-05-05 15:26:07,190 INFO   Before balancing — A (normal): 4244  B (pre-anom): 272  C (anom-ctx): 68  | target 60%/30%/10%
+2026-05-05 15:26:07,190 INFO   After  balancing — A: 510  B: 272  C: 68  Total: 850
+2026-05-05 15:26:07,286 INFO   Before balancing — A (normal): 4609  B (pre-anom): 228  C (anom-ctx): 57  | target 60%/30%/10%
+2026-05-05 15:26:07,287 INFO   After  balancing — A: 427  B: 228  C: 57  Total: 712
+2026-05-05 15:26:07,340 INFO   Before balancing — A (normal): 5215  B (pre-anom): 101  C (anom-ctx): 25  | target 60%/30%/10%
+2026-05-05 15:26:07,340 INFO   After  balancing — A: 188  B: 101  C: 25  Total: 314
+2026-05-05 15:26:07,387 INFO   Before balancing — A (normal): 4915  B (pre-anom): 155  C (anom-ctx): 48  | target 60%/30%/10%
+2026-05-05 15:26:07,387 INFO   After  balancing — A: 304  B: 155  C: 48  Total: 507
+2026-05-05 15:26:07,437 INFO   Before balancing — A (normal): 3804  B (pre-anom): 399  C (anom-ctx): 102  | target 60%/30%/10%
+2026-05-05 15:26:07,437 INFO   After  balancing — A: 751  B: 399  C: 102  Total: 1252
+2026-05-05 15:26:07,490 INFO   Before balancing — A (normal): 3583  B (pre-anom): 431  C (anom-ctx): 109  | target 60%/30%/10%
+2026-05-05 15:26:07,491 INFO   After  balancing — A: 810  B: 431  C: 109  Total: 1350
+2026-05-05 15:26:07,550 INFO   Before balancing — A (normal): 2494  B (pre-anom): 840  C (anom-ctx): 215  | target 60%/30%/10%
+2026-05-05 15:26:07,551 INFO   After  balancing — A: 1582  B: 840  C: 215  Total: 2637
+2026-05-05 15:26:07,622 INFO   Before balancing — A (normal): 295  B (pre-anom): 984  C (anom-ctx): 370  | target 60%/30%/10%
+2026-05-05 15:26:07,622 INFO   After  balancing — A: 295  B: 147  C: 49  Total: 491
+2026-05-05 15:26:07,668 INFO   Before balancing — A (normal): 4975  B (pre-anom): 137  C (anom-ctx): 34  | target 60%/30%/10%
+2026-05-05 15:26:07,669 INFO   After  balancing — A: 256  B: 137  C: 34  Total: 427
+2026-05-05 15:26:07,756 INFO   Before balancing — A (normal): 4974  B (pre-anom): 132  C (anom-ctx): 33  | target 60%/30%/10%
+2026-05-05 15:26:07,757 INFO   After  balancing — A: 247  B: 132  C: 33  Total: 412
+2026-05-05 15:26:07,831 INFO   Before balancing — A (normal): 981  B (pre-anom): 1266  C (anom-ctx): 317  | target 60%/30%/10%
+2026-05-05 15:26:07,832 INFO   After  balancing — A: 981  B: 490  C: 163  Total: 1634
+2026-05-05 15:26:07,909 INFO   Before balancing — A (normal): 521  B (pre-anom): 1307  C (anom-ctx): 328  | target 60%/30%/10%
+2026-05-05 15:26:07,909 INFO   After  balancing — A: 521  B: 260  C: 86  Total: 867
+2026-05-05 15:26:07,962 INFO   Before balancing — A (normal): 4773  B (pre-anom): 187  C (anom-ctx): 49  | target 60%/30%/10%
+2026-05-05 15:26:07,962 INFO   After  balancing — A: 353  B: 187  C: 49  Total: 589
+2026-05-05 15:26:08,031 INFO   Before balancing — A (normal): 2064  B (pre-anom): 999  C (anom-ctx): 251  | target 60%/30%/10%
+2026-05-05 15:26:08,031 INFO   After  balancing — A: 1875  B: 999  C: 251  Total: 3125
+2026-05-05 15:26:08,086 INFO   Before balancing — A (normal): 3876  B (pre-anom): 377  C (anom-ctx): 95  | target 60%/30%/10%
+2026-05-05 15:26:08,086 INFO   After  balancing — A: 707  B: 377  C: 95  Total: 1179
+2026-05-05 15:26:08,140 INFO   Before balancing — A (normal): 3517  B (pre-anom): 498  C (anom-ctx): 124  | target 60%/30%/10%
+2026-05-05 15:26:08,141 INFO   After  balancing — A: 932  B: 498  C: 124  Total: 1554
+2026-05-05 15:26:08,207 INFO   Before balancing — A (normal): 857  B (pre-anom): 1209  C (anom-ctx): 306  | target 60%/30%/10%
+2026-05-05 15:26:08,208 INFO   After  balancing — A: 857  B: 428  C: 142  Total: 1427
+2026-05-05 15:26:08,270 INFO   Before balancing — A (normal): 7  B (pre-anom): 1254  C (anom-ctx): 301  | target 60%/30%/10%
+2026-05-05 15:26:08,270 INFO   After  balancing — A: 7  B: 3  C: 1  Total: 11
+2026-05-05 15:26:08,337 INFO   Before balancing — A (normal): 1335  B (pre-anom): 1089  C (anom-ctx): 272  | target 60%/30%/10%
+2026-05-05 15:26:08,338 INFO   After  balancing — A: 1335  B: 667  C: 222  Total: 2224
+2026-05-05 15:26:08,390 INFO   Before balancing — A (normal): 3700  B (pre-anom): 417  C (anom-ctx): 106  | target 60%/30%/10%
+2026-05-05 15:26:08,390 INFO   After  balancing — A: 784  B: 417  C: 106  Total: 1307
+2026-05-05 15:26:08,393 INFO   Before balancing — A (normal): 122  B (pre-anom): 13  C (anom-ctx): 3  | target 60%/30%/10%
+2026-05-05 15:26:08,393 INFO   After  balancing — A: 23  B: 13  C: 3  Total: 39
+2026-05-05 15:26:08,395 INFO   Before balancing — A (normal): 113  B (pre-anom): 11  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:08,395 INFO   After  balancing — A: 19  B: 11  C: 2  Total: 32
+2026-05-05 15:26:08,459 INFO   Before balancing — A (normal): 1280  B (pre-anom): 1028  C (anom-ctx): 242  | target 60%/30%/10%
+2026-05-05 15:26:08,459 INFO   After  balancing — A: 1280  B: 640  C: 213  Total: 2133
+2026-05-05 15:26:08,520 INFO   Before balancing — A (normal): 2678  B (pre-anom): 677  C (anom-ctx): 171  | target 60%/30%/10%
+2026-05-05 15:26:08,521 INFO   After  balancing — A: 1271  B: 677  C: 171  Total: 2119
+2026-05-05 15:26:08,534 INFO   Before balancing — A (normal): 1206  B (pre-anom): 49  C (anom-ctx): 14  | target 60%/30%/10%
+2026-05-05 15:26:08,535 INFO   After  balancing — A: 94  B: 49  C: 14  Total: 157
+2026-05-05 15:26:08,643 INFO   Before balancing — A (normal): 2048  B (pre-anom): 741  C (anom-ctx): 217  | target 60%/30%/10%
+2026-05-05 15:26:08,643 INFO   After  balancing — A: 1436  B: 741  C: 217  Total: 2394
+2026-05-05 15:26:08,651 INFO   Before balancing — A (normal): 426  B (pre-anom): 42  C (anom-ctx): 11  | target 60%/30%/10%
+2026-05-05 15:26:08,651 INFO   After  balancing — A: 79  B: 42  C: 11  Total: 132
+2026-05-05 15:26:08,658 INFO   Before balancing — A (normal): 363  B (pre-anom): 100  C (anom-ctx): 25  | target 60%/30%/10%
+2026-05-05 15:26:08,659 INFO   After  balancing — A: 187  B: 100  C: 25  Total: 312
+2026-05-05 15:26:08,661 INFO   Before balancing — A (normal): 65  B (pre-anom): 12  C (anom-ctx): 4  | target 60%/30%/10%
+2026-05-05 15:26:08,661 INFO   After  balancing — A: 23  B: 12  C: 4  Total: 39
+2026-05-05 15:26:08,663 INFO   Before balancing — A (normal): 203  B (pre-anom): 12  C (anom-ctx): 3  | target 60%/30%/10%
+2026-05-05 15:26:08,664 INFO   After  balancing — A: 22  B: 12  C: 3  Total: 37
+2026-05-05 15:26:08,666 INFO   Before balancing — A (normal): 188  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:08,666 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:08,668 INFO   Before balancing — A (normal): 213  B (pre-anom): 0  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:08,668 INFO   After  balancing — A: 1  B: 0  C: 1  Total: 2
+2026-05-05 15:26:08,670 INFO   Before balancing — A (normal): 211  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:08,670 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:08,679 INFO   Before balancing — A (normal): 859  B (pre-anom): 12  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:08,679 INFO   After  balancing — A: 21  B: 12  C: 2  Total: 35
+2026-05-05 15:26:08,681 INFO   Before balancing — A (normal): 180  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:08,681 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:08,690 INFO   Before balancing — A (normal): 985  B (pre-anom): 16  C (anom-ctx): 3  | target 60%/30%/10%
+2026-05-05 15:26:08,690 INFO   After  balancing — A: 28  B: 16  C: 3  Total: 47
+2026-05-05 15:26:08,696 INFO   Before balancing — A (normal): 154  B (pre-anom): 92  C (anom-ctx): 24  | target 60%/30%/10%
+2026-05-05 15:26:08,697 INFO   After  balancing — A: 154  B: 77  C: 24  Total: 255
+2026-05-05 15:26:08,699 INFO   Before balancing — A (normal): 271  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:08,700 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:08,702 INFO   Before balancing — A (normal): 247  B (pre-anom): 8  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:08,702 INFO   After  balancing — A: 15  B: 8  C: 2  Total: 25
+2026-05-05 15:26:08,749 INFO   Before balancing — A (normal): 5442  B (pre-anom): 52  C (anom-ctx): 13  | target 60%/30%/10%
+2026-05-05 15:26:08,749 INFO   After  balancing — A: 97  B: 52  C: 13  Total: 162
+2026-05-05 15:26:08,751 INFO   Before balancing — A (normal): 18  B (pre-anom): 8  C (anom-ctx): 2  | target 60%/30%/10%
+2026-05-05 15:26:08,751 INFO   After  balancing — A: 15  B: 8  C: 2  Total: 25
+2026-05-05 15:26:08,752 INFO   Before balancing — A (normal): 43  B (pre-anom): 4  C (anom-ctx): 0  | target 60%/30%/10%
+2026-05-05 15:26:08,752 INFO   After  balancing — A: 5  B: 4  C: 0  Total: 9
+2026-05-05 15:26:08,753 INFO   Before balancing — A (normal): 17  B (pre-anom): 4  C (anom-ctx): 0  | target 60%/30%/10%
+2026-05-05 15:26:08,753 INFO   After  balancing — A: 5  B: 4  C: 0  Total: 9
+2026-05-05 15:26:08,754 INFO   Before balancing — A (normal): 28  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:08,754 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:08,811 INFO   Before balancing — A (normal): 2298  B (pre-anom): 678  C (anom-ctx): 168  | target 60%/30%/10%
+2026-05-05 15:26:08,812 INFO   After  balancing — A: 1268  B: 678  C: 168  Total: 2114
+2026-05-05 15:26:08,879 INFO   Before balancing — A (normal): 760  B (pre-anom): 1203  C (anom-ctx): 308  | target 60%/30%/10%
+2026-05-05 15:26:08,879 INFO   After  balancing — A: 760  B: 380  C: 126  Total: 1266
+2026-05-05 15:26:08,929 INFO   Before balancing — A (normal): 3906  B (pre-anom): 254  C (anom-ctx): 65  | target 60%/30%/10%
+2026-05-05 15:26:08,930 INFO   After  balancing — A: 478  B: 254  C: 65  Total: 797
+2026-05-05 15:26:08,938 INFO   Before balancing — A (normal): 1023  B (pre-anom): 4  C (anom-ctx): 1  | target 60%/30%/10%
+2026-05-05 15:26:08,938 INFO   After  balancing — A: 7  B: 4  C: 1  Total: 12
+2026-05-05 15:26:08,988 INFO   Before balancing — A (normal): 3946  B (pre-anom): 387  C (anom-ctx): 97  | target 60%/30%/10%
+2026-05-05 15:26:08,989 INFO   After  balancing — A: 725  B: 387  C: 97  Total: 1209
+2026-05-05 15:26:08,990 INFO Instruction pairs — Train: 70857 | Val: 13350
+2026-05-05 15:26:08,990 INFO Converting pairs to fixed-length model inputs (NaN-padding short contexts)...
+2026-05-05 15:26:10,194 INFO Model inputs — Train: 70857 | Val: 13350
+2026-05-05 15:26:10,836 INFO Saved    250 entries → ./prepared_data/train_inputs.pkl
+2026-05-05 15:26:10,917 INFO Saved     27 entries → ./prepared_data/val_inputs.pkl
+2026-05-05 15:26:16,720 INFO Saved  70857 entries → ./prepared_data/train_pairs.pkl
+2026-05-05 15:26:17,492 INFO Saved  13350 entries → ./prepared_data/val_pairs.pkl
+2026-05-05 15:26:19,135 INFO Saved  70857 entries → ./prepared_data/train_model_inputs.pkl
+2026-05-05 15:26:19,324 INFO Saved  13350 entries → ./prepared_data/val_model_inputs.pkl
+2026-05-05 15:26:19,324 INFO ============================================================
+2026-05-05 15:26:19,325 INFO RAW SERIES STATISTICS
+2026-05-05 15:26:19,325 INFO   Total series : 277
+2026-05-05 15:26:19,325 INFO   Time steps   : min=1215, max=184320, mean=61438
+2026-05-05 15:26:19,325 INFO   Num features : min=2, max=55, mean=19.6
+2026-05-05 15:26:19,360 INFO ============================================================
+2026-05-05 15:26:19,361 INFO INSTRUCTION PAIR STATISTICS
+2026-05-05 15:26:19,361 INFO   Total pairs          : 84207
+2026-05-05 15:26:19,361 INFO   Train pairs          : 70857
+2026-05-05 15:26:19,361 INFO   Val pairs            : 13350
+2026-05-05 15:26:19,361 INFO   Context shape        : (2, 512)  [features x context_length]
+2026-05-05 15:26:19,361 INFO   Future  shape        : (2, 64)  [features x pred_length]
+2026-05-05 15:26:19,361 INFO   Avg pairs per series : 304.0
+2026-05-05 15:26:19,361 INFO   Type distribution:
+2026-05-05 15:26:19,361 INFO     anomaly_context        :   7390  (8.8%)
+2026-05-05 15:26:19,361 INFO     normal_to_normal       :  50490  (60.0%)
+2026-05-05 15:26:19,361 INFO     pre_anomaly            :  26327  (31.3%)
+2026-05-05 15:26:19,361 INFO ============================================================

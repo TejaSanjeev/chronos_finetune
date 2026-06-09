@@ -1,0 +1,14 @@
+# Ignore Python cache anywhere inside rajib_work_space
+rajib_work_space/**/__pycache__/
+
+# Ignore specific chronos2 run and stage folders
+rajib_work_space/chronos2-run-logged/
+rajib_work_space/chronos2-single-stage_NS1000/
+rajib_work_space/chronos2-single-stage_NS1000_lambda0/
+rajib_work_space/chronos2-single-stage_NS1000_V2/
+rajib_work_space/chronos2-single-stage_NS1000_V4/
+
+# Ignore specific prepared data folders
+rajib_work_space/prepared_data/
+rajib_work_space/prepared_data_labeled/
+rajib_work_space/prepared_data_simple/

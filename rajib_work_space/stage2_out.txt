@@ -1,0 +1,98 @@
+======================================================
+  Chronos-2 Two-Stage Anomaly Fine-Tuning
+======================================================
+  PREPARED_DIR      = ./prepared_data
+  STAGE1_OUTPUT_DIR = ./chronos2-stage1
+  STAGE2_OUTPUT_DIR = ./chronos2-stage2
+  MODEL_ID          = amazon/chronos-2
+  DEVICE            = cuda
+  FINETUNE_MODE     = lora
+  PREDICTION_LENGTH = 64
+  CONTEXT_LENGTH    = 512
+  BATCH_SIZE        = 4
+  GRAD_ACCUM        = 8  (effective batch = 32)
+  LOGGING_STEPS     = 100
+  NO_VALIDATION     = 0
+------------------------------------------------------
+  Stage 1           = SKIPPED  (ckpt: /home/rajib/chronos-forecasting/chronos2-stage1/finetuned-ckpt)
+  STAGE2_STEPS      = 3000
+  STAGE2_LR         = <default>
+------------------------------------------------------
+  LORA_R            = 8
+  LORA_ALPHA        = 16
+  LORA_DROPOUT      = 0.0
+======================================================
+
+Stage 2 finetuning....
+{'loss': -6.1135, 'grad_norm': 3.9616849422454834, 'learning_rate': 9.67e-06, 'epoch': 0.03}
+{'eval_loss': -6.227427005767822, 'eval_runtime': 692.7805, 'eval_samples_per_second': 75.265, 'eval_steps_per_second': 18.817, 'epoch': 0.03}
+{'loss': -6.5917, 'grad_norm': 4.546792984008789, 'learning_rate': 9.336666666666666e-06, 'epoch': 0.07}
+{'eval_loss': -6.852917194366455, 'eval_runtime': 694.4848, 'eval_samples_per_second': 75.08, 'eval_steps_per_second': 18.771, 'epoch': 0.07}
+{'loss': -7.8198, 'grad_norm': 19.70528221130371, 'learning_rate': 9.003333333333334e-06, 'epoch': 0.1}
+{'eval_loss': -9.690908432006836, 'eval_runtime': 693.4122, 'eval_samples_per_second': 75.196, 'eval_steps_per_second': 18.8, 'epoch': 0.1}
+{'loss': -16.681, 'grad_norm': 68.0716781616211, 'learning_rate': 8.67e-06, 'epoch': 0.13}
+{'eval_loss': -26.66884422302246, 'eval_runtime': 693.4113, 'eval_samples_per_second': 75.196, 'eval_steps_per_second': 18.8, 'epoch': 0.13}
+{'loss': -48.8486, 'grad_norm': 453.8770446777344, 'learning_rate': 8.336666666666668e-06, 'epoch': 0.17}
+{'eval_loss': -102.64962768554688, 'eval_runtime': 691.6556, 'eval_samples_per_second': 75.387, 'eval_steps_per_second': 18.848, 'epoch': 0.17}
+{'loss': -156.5622, 'grad_norm': 270.085693359375, 'learning_rate': 8.003333333333334e-06, 'epoch': 0.2}
+{'eval_loss': -221.30465698242188, 'eval_runtime': 694.9512, 'eval_samples_per_second': 75.03, 'eval_steps_per_second': 18.758, 'epoch': 0.2}
+{'loss': -258.1515, 'grad_norm': 852.561279296875, 'learning_rate': 7.670000000000001e-06, 'epoch': 0.23}
+{'eval_loss': -380.7825927734375, 'eval_runtime': 692.2678, 'eval_samples_per_second': 75.321, 'eval_steps_per_second': 18.831, 'epoch': 0.23}
+{'loss': -459.2659, 'grad_norm': 821.0413818359375, 'learning_rate': 7.336666666666668e-06, 'epoch': 0.27}
+{'eval_loss': -653.150634765625, 'eval_runtime': 694.2532, 'eval_samples_per_second': 75.105, 'eval_steps_per_second': 18.777, 'epoch': 0.27}
+{'loss': -646.1663, 'grad_norm': 620.1478271484375, 'learning_rate': 7.003333333333335e-06, 'epoch': 0.3}
+{'eval_loss': -801.9575805664062, 'eval_runtime': 694.7117, 'eval_samples_per_second': 75.056, 'eval_steps_per_second': 18.765, 'epoch': 0.3}
+{'loss': -751.425, 'grad_norm': 673.6830444335938, 'learning_rate': 6.6700000000000005e-06, 'epoch': 0.33}
+{'eval_loss': -886.6692504882812, 'eval_runtime': 699.1445, 'eval_samples_per_second': 74.58, 'eval_steps_per_second': 18.646, 'epoch': 0.33}
+{'loss': -821.4216, 'grad_norm': 465.3005676269531, 'learning_rate': 6.336666666666667e-06, 'epoch': 0.37}
+{'eval_loss': -947.3197021484375, 'eval_runtime': 696.1631, 'eval_samples_per_second': 74.899, 'eval_steps_per_second': 18.725, 'epoch': 0.37}
+{'loss': -874.4238, 'grad_norm': 406.50164794921875, 'learning_rate': 6.003333333333334e-06, 'epoch': 0.4}
+{'eval_loss': -991.8923950195312, 'eval_runtime': 695.7142, 'eval_samples_per_second': 74.947, 'eval_steps_per_second': 18.738, 'epoch': 0.4}
+{'loss': -916.8104, 'grad_norm': 346.2642517089844, 'learning_rate': 5.67e-06, 'epoch': 0.43}
+{'eval_loss': -1027.02978515625, 'eval_runtime': 696.074, 'eval_samples_per_second': 74.909, 'eval_steps_per_second': 18.728, 'epoch': 0.43}
+{'loss': -953.7158, 'grad_norm': 331.910400390625, 'learning_rate': 5.336666666666667e-06, 'epoch': 0.47}
+{'eval_loss': -1058.9744873046875, 'eval_runtime': 693.4998, 'eval_samples_per_second': 75.187, 'eval_steps_per_second': 18.797, 'epoch': 0.47}
+{'loss': -987.1278, 'grad_norm': 347.4833068847656, 'learning_rate': 5.0033333333333334e-06, 'epoch': 0.5}
+{'eval_loss': -1086.70263671875, 'eval_runtime': 694.4761, 'eval_samples_per_second': 75.081, 'eval_steps_per_second': 18.771, 'epoch': 0.5}
+{'loss': -1019.3831, 'grad_norm': 354.5431213378906, 'learning_rate': 4.670000000000001e-06, 'epoch': 0.53}
+{'eval_loss': -1112.300048828125, 'eval_runtime': 698.7356, 'eval_samples_per_second': 74.623, 'eval_steps_per_second': 18.657, 'epoch': 0.53}
+{'loss': -1049.2405, 'grad_norm': 341.7194519042969, 'learning_rate': 4.336666666666667e-06, 'epoch': 0.57}
+{'eval_loss': -1139.387451171875, 'eval_runtime': 700.2858, 'eval_samples_per_second': 74.458, 'eval_steps_per_second': 18.615, 'epoch': 0.57}
+{'loss': -1076.7042, 'grad_norm': 333.3724365234375, 'learning_rate': 4.003333333333334e-06, 'epoch': 0.6}
+{'eval_loss': -1159.773193359375, 'eval_runtime': 695.3368, 'eval_samples_per_second': 74.988, 'eval_steps_per_second': 18.748, 'epoch': 0.6}
+{'loss': -1096.8813, 'grad_norm': 336.1964111328125, 'learning_rate': 3.6700000000000004e-06, 'epoch': 0.63}
+{'eval_loss': -1176.9591064453125, 'eval_runtime': 693.8021, 'eval_samples_per_second': 75.154, 'eval_steps_per_second': 18.789, 'epoch': 0.63}
+{'loss': -1116.2433, 'grad_norm': 336.7369384765625, 'learning_rate': 3.3366666666666668e-06, 'epoch': 0.67}
+{'eval_loss': -1191.7845458984375, 'eval_runtime': 697.1525, 'eval_samples_per_second': 74.793, 'eval_steps_per_second': 18.699, 'epoch': 0.67}
+{'loss': -1131.2242, 'grad_norm': 335.1414489746094, 'learning_rate': 3.0033333333333335e-06, 'epoch': 0.7}
+{'eval_loss': -1204.228271484375, 'eval_runtime': 695.6065, 'eval_samples_per_second': 74.959, 'eval_steps_per_second': 18.74, 'epoch': 0.7}
+{'loss': -1145.3089, 'grad_norm': 336.2232971191406, 'learning_rate': 2.6700000000000003e-06, 'epoch': 0.73}
+{'eval_loss': -1215.266357421875, 'eval_runtime': 695.9779, 'eval_samples_per_second': 74.919, 'eval_steps_per_second': 18.73, 'epoch': 0.73}
+{'loss': -1157.6666, 'grad_norm': 341.59967041015625, 'learning_rate': 2.3366666666666666e-06, 'epoch': 0.77}
+{'eval_loss': -1225.00048828125, 'eval_runtime': 694.7041, 'eval_samples_per_second': 75.056, 'eval_steps_per_second': 18.765, 'epoch': 0.77}
+{'loss': -1167.1879, 'grad_norm': 355.7669372558594, 'learning_rate': 2.0033333333333334e-06, 'epoch': 0.8}
+{'eval_loss': -1233.157470703125, 'eval_runtime': 693.5699, 'eval_samples_per_second': 75.179, 'eval_steps_per_second': 18.796, 'epoch': 0.8}
+{'loss': -1176.6887, 'grad_norm': 353.3095397949219, 'learning_rate': 1.6700000000000003e-06, 'epoch': 0.83}
+{'eval_loss': -1240.1610107421875, 'eval_runtime': 696.092, 'eval_samples_per_second': 74.907, 'eval_steps_per_second': 18.727, 'epoch': 0.83}
+{'loss': -1183.9868, 'grad_norm': 361.85260009765625, 'learning_rate': 1.3366666666666666e-06, 'epoch': 0.87}
+{'eval_loss': -1245.814453125, 'eval_runtime': 694.1789, 'eval_samples_per_second': 75.113, 'eval_steps_per_second': 18.779, 'epoch': 0.87}
+{'loss': -1190.0105, 'grad_norm': 353.7331848144531, 'learning_rate': 1.0033333333333334e-06, 'epoch': 0.9}
+{'eval_loss': -1250.3424072265625, 'eval_runtime': 694.6619, 'eval_samples_per_second': 75.061, 'eval_steps_per_second': 18.766, 'epoch': 0.9}
+{'loss': -1194.2804, 'grad_norm': 361.7652282714844, 'learning_rate': 6.7e-07, 'epoch': 0.93}
+{'eval_loss': -1253.504638671875, 'eval_runtime': 701.1989, 'eval_samples_per_second': 74.361, 'eval_steps_per_second': 18.591, 'epoch': 0.93}
+{'loss': -1195.8524, 'grad_norm': 363.3652038574219, 'learning_rate': 3.366666666666667e-07, 'epoch': 0.97}
+{'eval_loss': -1255.51123046875, 'eval_runtime': 698.9554, 'eval_samples_per_second': 74.6, 'eval_steps_per_second': 18.651, 'epoch': 0.97}
+{'loss': -1197.3313, 'grad_norm': 361.49737548828125, 'learning_rate': 3.3333333333333334e-09, 'epoch': 1.0}
+{'eval_loss': -1256.1265869140625, 'eval_runtime': 693.9428, 'eval_samples_per_second': 75.139, 'eval_steps_per_second': 18.785, 'epoch': 1.0}
+{'train_runtime': 28024.2033, 'train_samples_per_second': 3.426, 'train_steps_per_second': 0.107, 'train_loss': -800.3038322957357, 'epoch': 1.0}
+
+======================================================
+  Two-stage fine-tuning complete!
+  Stage 1 checkpoint : ./chronos2-stage1/finetuned-ckpt
+  Stage 2 checkpoint : ./chronos2-stage2/finetuned-ckpt  ← use for inference
+
+  Load the final model with:
+    from chronos import BaseChronosPipeline
+    pipeline = BaseChronosPipeline.from_pretrained(
+        './chronos2-stage2/finetuned-ckpt', device_map='cuda')
+======================================================

@@ -1,0 +1,9 @@
+I want to fine tune chronos2 model, It will be a supervised fine tuning.
+
+(1)IMPORTANT:read the notebook /home/rajib/chronos-forecasting/notebooks/chronos-2-quickstart.ipynb where you can find the fine tune api which uses the "fit" function defined in the file:/home/rajib/chronos-forecasting/src/chronos/chronos2/pipeline.py
+read the files carefully and write a script where I can fine tune the model also I want to customize the fine tuning like Lora finetuning.
+
+(2) Also preapre another script where I can process the data my data is in this folder: /home/rajib/mTSBench/Datasets/mTSBench
+use only *test.csv for traing.
+
+(3) also create a script to use the fine tuned model for zero shot evaluation.
